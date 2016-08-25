@@ -1,0 +1,17 @@
+﻿
+.azul{
+	color:blue;
+}
+body{
+	background-color: lightblue
+}
+.black{
+	background-color: lightgreen
+}
+.table{
+	border: 2px solid black;
+	padding: 15px; /* espaçamento entre as bordas */
+}
+.ta{
+	text-aling:left
+}
