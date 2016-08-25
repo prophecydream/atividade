@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cadastro</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+	<div class="black">
+	<h1 class="azul">Cadastro</h1>
+	<hr>
+	</div>
+	<div class="table">
+	Digite seu nome: <br>
+	<input type="text" name="nome"/>
+	<br><br>
+	Login:
+	<input type="text" name="login"> <br>
+	Senha:
+	<input type="password" name="senha">
+	<br><br>
+	Sexo: <br>
+	<input type="radio" name="sexo" value="masculino"> Masculino
+	<input type="radio" name="sexo" value="feminino"> Feminino
+	<br><br>
+	Data de nascimento:
+	<input type="date" name="data">
+	Horas:
+	<input type="time" name="hora">
+	<br><br>
+	Local de nascimento:
+	<select name="localnasc">
+		<option value=cps>Campinas</option>
+		<option value="hto">Hortolandia</option>
+		<option value="sum">Sumaré</option>
+		<option value="val">Valinhos</option>
+	</select>
+	<br><br>
+	Selecione sua cor favorita: 
+	<input type="color" name="cor">
+	<br><br>
+	Selecione os itens que você possui em casa: <br>
+	<input type="checkbox" name="itens" value="TV"/> TV <br>
+	<input type="checkbox" name="itens" value="Geladeira"/> Geladeira <br>
+	<input type="checkbox" name="itens" value="Computador"/> Computador <br>
+	<input type="checkbox" name="itens" value="Video game"> Video game 
+	<br><br>
+	Frequência que vai ao mercado por mês: <br>
+	<input type="range"> 
+	<br>
+	1 2 3 4 5 6 7 8 9 10
+	<br><br>
+	Observações <br>
+	<textarea rows="6" cols="50" name="obs"></textarea>
+	<br><br>
+	<input type="submit">
+	</div>
+</body>
+</html>
