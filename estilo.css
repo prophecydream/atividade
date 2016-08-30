@@ -1,17 +1,33 @@
 ﻿
 .azul{
-	color:blue;
+	color:lightseagreen;
 }
 body{
-	background-color: lightblue
+	background-color: lightblue;
 }
 .black{
-	background-color: lightgreen
+	background-color: lightcyan
 }
 .table{
 	border: 2px solid black;
 	padding: 15px; /* espaçamento entre as bordas */
+	width: 1000px;
+	background-color:beige
 }
 .ta{
-	text-aling:left
+	width:1904px;
+	height:100px;
+	background-color: lightgreen;
+	color: lightgreen
+}
+.teste{
+	width:870px;
+	height:685px;
+	float:right;
+	background-color:lightgray;
+	color:lightgray;
+}
+hr{
+	margin-bottom:0.3px;
+	padding-bottom:0.3px
 }
